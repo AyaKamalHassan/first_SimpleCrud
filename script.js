@@ -8,11 +8,10 @@ const priorityInput = document.getElementById("priority");
 const taskList = document.getElementById("task-list");
 
 form.addEventListener("submit", function (e) {
-  e.preventDefault();//منع الافتراضي
+  e.preventDefault();
 
   const title = titleInput.value.trim();
-  //.trim():يزيل الفراغات الزائدة من البداية والنهاية (مثلاً إذا كتب المستخدم 
-  //" Task 1 " تصبح "Task 1").
+  //.trim():
 
 
   const description = descriptionInput.value.trim();
@@ -75,7 +74,7 @@ window.editTask = function (index) {
 window.deleteTask = function (index) {
   if (confirm("Are you sure you want to delete this task?")) {
     tasks.splice(index, 1);
-    localStorage.setItem("Task", JSON.stringify(tasks)); // ✅ تحديث التخزين
+    localStorage.setItem("Task", JSON.stringify(tasks));
     displayTasks();
   }
 };
