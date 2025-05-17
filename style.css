@@ -1,0 +1,79 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image:url("low-poly-grid-haikei.png");
+    background-repeat: no-repeat;
+    direction:ltr;
+    background-size:cover;
+  }
+  
+  .container {
+    max-width: 1020px;
+    margin: 10px auto;
+    padding: 10px;
+    background-color:#333;
+    border-radius: 10px;
+    box-shadow: 0 0 15px #ccc;
+    color:white;
+    
+  
+  }
+  
+  h1, h2 {
+    text-align: center;
+    color: #f0e9e9;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  input, textarea, select, button {
+    padding: 5px;
+    font-size: 1em;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  button {
+    background-color: #1584c4;
+    color: white;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0b4a6e;
+    letter-spacing: 0.5px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+  }
+  
+  th, td {
+    padding: 5px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .actions button {
+    margin: 0 5px;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 4px;
+  }
+  
+  .edit-btn {
+    background-color: #2196F3;
+    color: white;
+  }
+  
+  .delete-btn {
+    background-color: #f44336;
+    color: white;
+  }
+  
